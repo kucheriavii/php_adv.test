@@ -14,3 +14,6 @@ echo "Функція, що формує сторінку (екшн) = $actionNam
 
 //Підключимо контроллер
 include_once '../controllers/'.$controllerName.'Controller.php';
+
+#Для перевірки роботи прикладу необхідно вручну прописати GET запит в адресну стрічку
+#СКОПІЮЙ ЦЕ В АДРЕСНУ СТРІЧКУ http://АДРЕСА_САЙТУ/?controller=index&action=test 
